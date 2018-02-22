@@ -1,0 +1,48 @@
+form.wpcf7-form .wpcf7-form-control  {
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-shadow: none;
+    font-size: 14px;
+    height: auto;
+    padding: 15px 12px;
+    transition: all 0.2s cubic-bezier(0, 0, 0.58, 1) 0s;
+ display: block;
+  width: 100% !important;
+  line-height: 1.42857;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+    color: #000;
+    width: 100%;
+}
+
+.wpcf7-form legend {
+ display:none; 
+}
+.wpcf7-form fieldset ol {
+ padding-left:0; 
+}
+.wpcf7-form fieldset label {
+ margin-bottom:10px; 
+}
+.wpcf7-form fieldset ol li {
+ margin-bottom:20px; 
+ color: #232323;
+    font-weight: 600;
+}
+ form.wpcf7-form  span.wpcf7-list-item {
+    display: block;
+    margin-left: 0.5em;
+}
+
+ form.wpcf7-form  p {
+  margin-bottom:20px;
+}
+
+div.wpcf7 .wpcf7-form-control {
+    max-width: 95%;
+}

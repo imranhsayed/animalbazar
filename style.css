@@ -1,0 +1,467 @@
+/*
+Theme Name: adforest
+Description: Adforest classified, responsive, multi-purpose, corporate, business theme. It comes with 11 home variations with all necessary pages. Adforest theme filled with extra functionality of modern web technologies. The clean design with latest version of Bootstrap framework makes its fit for anywhere.
+Author: Scripts Bundle
+Theme URI: http://adforest.scriptsbundle.com/demos/
+Author URI: http://scriptsbundle.com/
+Version: 3.1.2
+License: Themeforest Split Licence
+License URI: https://themeforest.net/user/scriptsbundle/
+Text Domain: adforest
+Tags: featured-images, sticky-post, translation-ready
+*/
+
+/**
+ * Custom Styles
+ */
+
+/* Footer Styles */
+.addtoany_share_save_container, .footer-about-us-link {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.minimal-footer .footer-about-us-link {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	color: #605f5f;
+	border: 1px solid gray;
+	padding: 5px 10px 5px 10px;
+}
+
+header .mega-menu .menu-list-items .menu-search-bar {
+	width: 14%;
+}
+
+/**
+ * Common Class for to hide an element
+ */
+.adforest-display {
+	display: none;
+}
+
+/**
+ * Post Add Pet Specifications
+ */
+.pet-specifications-container {
+	background: #ffffff;
+	color: black;
+}
+
+.pet-specifications-container select {
+	height: 35px;
+}
+
+.pet-spec-cont {
+	overflow: hidden;
+}
+
+.submit-form .pet-specifications-container label {
+	display: block;
+}
+
+.submit-form .pet-specifications-container input[type="text"],
+.submit-form .pet-specifications-container input[type="number"]{
+	width: 100%;
+	display: block;
+	padding: 10px;
+	color: #999999;
+	height: 35px
+}
+
+.submit-form .pet-specifications-container input[type="radio"] {
+	color: #999999;
+}
+
+.pet-specifications-container input {
+	margin-right: 8px;
+}
+
+/*.pet-specifications-container div:first-of-type {*/
+	/*padding: 17px;*/
+	/*border-left: 1px solid #f1f1f1;*/
+	/*background: #ffffff;*/
+	/*color: rgb(104, 103, 103);*/
+	/*font-size: 14px;*/
+	/*font-weight: 600;*/
+/*}*/
+
+.pet-specifications-container label {
+	color: rgb(104, 103, 103);
+}
+.pet-specification-heading-label {
+	color: #232323;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "Quicksand",sans-serif;
+	margin-bottom: 10px;
+}
+
+/**
+ * Category Pop Up markup
+ */
+.cat-name {
+	display: block;
+}
+
+.adforest-category-container div {
+	float: left;
+}
+
+.adforest-category-container {
+	overflow: hidden;
+	text-align: center;
+	border-color: #F1F1F1;
+	border-style: solid;
+	border-width: 1px 2px 6px 6px;
+}
+
+.pet-category-js-wrapper {
+	background: #ffffff;
+	max-width: 1200px;
+	overflow: hidden;
+}
+
+.adforest-subcategory-select-category {
+	border-color: #F1F1F1;
+	border-style: solid;
+	border-width: 6px 6px 1px 6px;
+	padding: 10px;
+}
+
+.pet-subcategory-js-wrapper{
+	margin-top: 20px;
+	min-height: 500px;
+}
+
+.adforest-subcategory-container, .adforest-subcategory-option-wrapper {
+	border-color: #F1F1F1;
+	border-style: solid;
+	border-width: 1px 6px 6px 6px;
+	padding: 10px;
+}
+
+.adforest-subcat-item-container .ad-subcat-element:hover{
+	cursor: pointer;
+	border-bottom: 2px solid rgba(210, 210, 210, 0.6);
+}
+
+.adforest-cat-item-container:hover .ad-cat-element {
+	cursor: pointer;
+	border-bottom: 2px solid rgba(210, 210, 210, 0.6);
+}
+
+.ad-cat-element {
+	border: 2px solid #ffffff;
+}
+
+.adforest-subcat-item-container {
+	background: white;
+}
+
+.ad-subcat-element span {
+	display: inline-block;
+}
+
+.ad-subcat-element {
+	margin-bottom: 0;
+	padding: 0 100px 0 22px;
+	border-bottom: 2px solid #ffffff;
+}
+
+.adforest-cat-item-container img {
+	width: 50px;
+}
+
+.adforest-cat-item-container .ad-cat-element {
+	padding: 10px;
+}
+
+.adforest-cat-item-container {
+	border: 2px solid #fff;
+}
+
+.adforest-category-select-category {
+	border-color: #F1F1F1;
+	border-style: solid;
+	border-width: 6px 6px 1px 6px;
+	padding: 10px;
+	color: black;
+}
+
+.adforest-subcategory-select-category {
+	color: black;
+}
+
+.ad-sub-cat-wrapper {
+	margin-top: -13px;
+}
+
+.ad-cat-element img{
+	width: 100px;
+	height: 100px;
+}
+
+.adforest-widget-category, .adforest-widget-pet-fields, .adforest-widget-location {
+	background: white;
+	border-color: #fff;
+	margin-bottom: -25px;
+	margin-top: 10px;
+}
+
+.panel-group .panel-title a {
+	padding-left: 15px;
+}
+
+.panel-group .panel-body {
+	font-size: 0.75em;
+}
+
+.pet-subcategory-js-wrapper, .adforest-category-container {
+	float: left;
+}
+
+.pet-specification-wrapper {
+	padding-right: 20px;
+}
+
+/*Select Animals*/
+
+.category_gridz {
+	background: #F2F2F2;
+	text-align: center;
+}
+
+.category_gridz a {
+	background: #ffffff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#ad_cat_sub_sub_div {
+	display: none;
+}
+
+/* Pet Description*/
+
+
+/* This is a temporary style. REMOVE THESE nth childs,
+add a container and add margin-top: 20px to the container*/
+
+.category_gridz a:nth-child(1),
+.category_gridz a:nth-child(2),
+.category_gridz a:nth-child(3),
+.category_gridz a:nth-child(4) {
+	margin-top: 20px;
+}
+
+.category_gridz .title {
+	border-top: 1px solid #f1f1f1;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0;
+}
+
+.category_gridz .category_new {
+	padding: 10px 0 0 0;
+}
+
+.category_gridz.small-size .category_new img {
+	border-radius: 100%;
+}
+
+.category_gridz.small-size a:hover {
+	box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.b-close>span {
+	font-size: 20px;
+	background: #0092B2;
+	border-radius: 6px;
+	font-weight: 100;
+	color: white;
+	padding: 5px 10px 7px 10px;
+	border-right: 1px solid;
+}
+
+#smartwizard .btn-group.sw-btn-group {
+	display: none;
+}
+
+#smartwizard .nav-tabs.step-anchor {
+	display: none;
+}
+
+.post-an-add-heading {
+	position: absolute;
+	float: left;
+	top: 1em;
+	font-weight: 550;
+	left: 3em;
+	z-index: 1;
+}
+
+
+
+/* Search Box */
+#search-section .btn-block {
+	background-color: #0088D3;
+	border-color: #0088D3;
+}
+
+/* Social Media */
+.fa-facebook {
+	color: #4059A7;
+}
+
+.fa-twitter {
+	color: #00abe7;
+}
+
+.fa-google-plus {
+	color: #fb2100;
+}
+
+.fa-linkedin {
+	color: #0095BF;
+}
+
+.fa-pinterest, .fa-youtube-play {
+	color: #fb2100;
+}
+
+.fa-tumblr {
+	color: #345677;
+}
+
+.fa-rss {
+	color: #F78230;
+}
+
+.fa-instagram {
+	color: #c80081;
+}
+
+	/* Profile Image */
+.adforest-edit-profile-img {
+	text-align: center;
+	cursor: pointer;
+}
+
+.desc-points div {
+	display: none;
+}
+
+.addtoany_share_save_container {
+	display: none;
+}
+
+.header-top .header-top-left .listnone {
+	display: none;
+}
+
+/* Ad Search Widget */
+.widget-subcat-ul {
+	margin-left: 10px;
+}
+
+/* Parallax Div Home Page */
+.heart-shapes {
+	float: left;
+	font-size: 70px;
+	height: 70px;
+	margin-top: 25px;
+	margin-right: 20px;
+	width: 70px;
+	color: #fff;
+}
+
+.parallax-div-heading {
+	display: inline-block;
+}
+
+#parallax-div-post-ad-btn button{
+	background: #FC2D1F;
+}
+
+.ad-location-search-input {
+	margin-right: 10px;
+}
+
+#ad_cat_sub_sub {
+	display: none;
+}
+
+.ad-search-widget-sub-field {
+	margin-left: 10px;
+}
+
+.ad-search-widget-main-heading, .pet-field-widget-count {
+	color: #555555;
+	font-size: 15px;
+}
+
+.widget-subcat-ul, .ad-search-widget-location input, .ad-search-widget input, .ad-petfield-list-content{
+	font-size: 15px;
+}
+
+.panel-title a{
+	border: 1px solid #e4e4e4;
+}
+
+.ad-search-widget label, .ad-search-widget-location label {
+	color: #555555;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.widget-subcat-ul label, .widget-subcat-ul input, .ad-search-widget-sub-field label {
+	color: #7a7a7a;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.ad-wid-specif-heading {
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.ad-search-widget input[type="checkbox"]:checked {
+	background-color: #a77e2d !important;
+	color: black;
+}
+
+.mti-pet-spec-container{
+	width: 178px;
+	height: 125px;
+	float: left;
+	margin-right: 25px;
+}
+
+.mti-pet-spec-container .pet-age-label, .mti-pet-spec-container .pet-gender-label, .mti-pet-spec-container .pet-vacc-label, .mti-pet-spec-container .pet-pregnant-label {
+	margin-bottom: 0;
+}
+
+
+@media (max-width: 767px) and (min-width: 320px) {
+	.heart-shapes {
+		display: table;
+		font-size: 70px;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+	.parallax-div-heading {
+		text-align: center;
+	}
+}
+
+/* Media Query */
+@media ( max-width: 700px ) {
+	.ad-cat-element img {
+		width: 50px;
+		height: 50px;
+	}
+}

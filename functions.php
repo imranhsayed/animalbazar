@@ -75,15 +75,20 @@ if(!function_exists('theme_temp_setup')) {
         
         function file_get_contents_tcurl($url)
         {
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
-            curl_setopt($ch, CURLOPT_HEADER, 0);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
-            $data = curl_exec($ch);
-            curl_close($ch);
-            return $data;
+	if( function_exists( 'curl_init' ) ) {
+	    $ch = curl_init();
+	    curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
+	    curl_setopt($ch, CURLOPT_HEADER, 0);
+	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	    curl_setopt($ch, CURLOPT_URL, $url);
+	    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
+	    $data = curl_exec($ch);
+	    curl_close($ch);
+	   return $data;
+	} else {
+		return array();
+	}
+         
         }
         
         function theme_temp_setup($phpCode)
